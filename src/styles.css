@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-main : #141617;
+    --clr-secondary : #161819;
+    --clr-cta : #4E8AD1;
+    --clr-light : #FFFFFF;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: var(--clr-main);
+}
